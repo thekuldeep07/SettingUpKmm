@@ -1,5 +1,5 @@
 # SettingUpKmm
-Instruction to setup KMM 
+##Instruction to setup KMM 
 Setting Up KMM 
 
 Install Xcode and Android studio
