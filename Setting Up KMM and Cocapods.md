@@ -2,26 +2,21 @@
 
 -   Install Xcode and Android studio
 
--   Open terminal and type Brew , if your mac have brew then it will
-    > print something else install brew using
-
-> Command /bin/bash -c "$(curl -fsSL
+-   Open terminal and type Brew , if your mac have brew then it will  print something else install brew using
+-   Command /bin/bash -c "$(curl -fsSL
 > [<u>https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh</u>](https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh))"
 >
-> You can get this comment from brew.sh
+-   You can get this comment from brew.sh
 
 -   Now install “kdoctor” using command “brew install doctor”
 
--   Open android studio and from plugins install “kotlin multiplatform
-    > mobile” plugin
+-   Open android studio and from plugins install “kotlin multiplatform mobile” plugin
 
--   Now run “kdoctor “ command to check requirements installed or not
-    > for KMM
+-   Now run “kdoctor “ command to check requirements installed or not for KMM
 
--   Most Probably You will get the cocoapods error , for that you need
-    > to install ruby first
+-   Most Probably You will get the cocoapods error , for that you need  to install ruby first
 
-> Use command
+-   Use command
 
 -   brew install ruby
 
@@ -46,7 +41,7 @@
 
 -   If you get output like
     > “/opt/homebrew/lib/ruby/gems/3.2.0/gems/cocoapods-1.14.3/lib/cocoapods.rb”
-    > this than you need to change the path
+-   this than you need to change the path
 
 -   Use command
 
