@@ -48,22 +48,17 @@
 -   sudo echo 'export
     > PATH="/opt/homebrew/lib/ruby/gems/3.2.0/bin:$PATH"' \>\> \~/.zshrc
 
--   You might get error regarding UTF-8 encoding , in my case i got
-    > this  
+-   You might get error regarding UTF-8 encoding , in my case i got this  
     > “CocoaPods requires your terminal to be using UTF-8 encoding.
 
-> Consider adding the following to \~/.zprofile
->
+-Consider adding the following to \~/.zprofile
 > export LANG=en_US.UTF-8
->
 > export LC_ALL=en_US.UTF-8”
 
 -   You can use below command to solve this problem
 
-<!-- -->
+  >  echo 'export LANG=en_US.UTF-8' \>\> \~/.zprofile
 
--   echo 'export LANG=en_US.UTF-8' \>\> \~/.zprofile
-
--   echo 'export LC_ALL=en_US.UTF-8' \>\> \~/.zprofile
+  > echo 'export LC_ALL=en_US.UTF-8' \>\> \~/.zprofile
 
 -   Restart your terminal and run “kdoctor” , now you will good to go.
